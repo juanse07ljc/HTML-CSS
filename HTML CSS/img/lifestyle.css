@@ -1,0 +1,14 @@
+html,body{
+    background-color: aquamarine;
+}
+.caja1{
+    background-color: black;
+    width: 80%;
+    height: 50vh;
+    border-style: 1px solid #E8E9FE;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2em;
+    font-style: normal;
+}
+

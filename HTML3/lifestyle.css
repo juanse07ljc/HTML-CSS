@@ -1,0 +1,14 @@
+@import url('@import url(https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1;200..800&display=swap');
+
+html,body{
+    background-color: rgb(79, 185, 208);
+
+}
+.cajilla1{
+    background-color: rgb(171, 243, 243);
+    
+}
+
+.description{
+    font-family: karla;
+}

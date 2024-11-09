@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <title>TastingFormulario</title>
+</head>
+<body>
+  <section>
+    <div>
+       <h2 style="text-align: center;">EVALUACION FINAL</h2>
+       <form action="submit" method="post"></form>
+       <fieldset>
+        <legend class="info-personal">Informacion Personal</legend>
+
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre completo" required>
+
+       <!-- <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos"> <br>-->
+
+        <label for="correo">Correo electronico</label>
+        <input type="email" name="correo" id="correo" required> <br><br>
+
+       </fieldset> <br><br>
+
+       <section name="contenido-preguntas"> <!--CONTENIDO DE LAS PREGUNTAS-->
+       
+
+       <!--<section class="PartePreguntaAbiertas"></section> -->       <!--QUESTION 1-->
+       <label for="respuesta1txt">1. Que es una base de datos relacional<label> <br><br>
+       <textarea name="respuesta1txt" id="" rows="1" cols="30"></textarea> <br><br>
+
+
+
+
+
+       <!--<section class="seleccionmultiple">-->      <!--QUESTION 2-->
+         <p>2. ¿Cual de las siguientes opciones no es un tipo de instruccion SQL?</p>
+         <input  type="radio" name="pregunta1" value="DDL">DDL 
+         <input  type="radio" name="pregunta1" value="MDL" class="seleccion1">MDL<br><br>
+ 
+         <input type="radio" name="pregunta2" value="DDLT">DDLT
+         <input type="radio" name="pregunta2" value="TCL">TCL <br><br>
+
+          <!--QUESTION 3-->
+         <p>3. Las instrucciones DLC en SQL se utilizan para gestionar permisos y acceso a los datos</p> <br>
+         <input type="radio" name="pregunta3" value="verdadero">verdadero <br><br>
+         <input type="radio" name="pregunta3" value="falso">falso<br><br>
+
+         <!-- QUESTION 4-->
+         
+         <label for="pregunta4">4. ¿Cual es el proposito de normalizar una base de datos?</label>
+         <input type="text" name="pregunta4" value=""><br><br>
+
+         <!--QUESTION 5-->
+
+        <p>5. En el siguiente diagrama ¿Cual es la entidad que se relaciona directamente con un "Cliente"?</p> <br><br>
+         <img src="img/questiontxt5.png" width="450" height="250"  halt="imagen representativa"> <br><br>
+         <input type="radio" name="pregunta5">Pedido <br><br>
+         <input type="radio" name="pregunta5">Proveedor <br><br>
+         <input type="radio" name="pregunta5">Exportaciones <br><br>
+         <input type="radio" name="pregunta5">Administrador <br><br>
+
+         <!--QUESTION 6-->
+        <p>6. La Primera Forma Normal (1NF) requiere que cada atributo tenga valores atomicos (Sin listas o conjuntos)</p>  <br>
+         <input type="radio" name="pregunta6">verdadero <br><br>
+         <input type="radio" name="pregunta6">falso <br><br>
+
+         <!--QUESTION 7-->
+         <p>7. Explica la diferencia entre la primera y la segunda forma normal</p> 
+         <input type="text" name="texto7" id="" rows="" cols="30" > <br><br>
+
+
+         <!--QUESTION 8-->
+         <p>8. En SQL, ¿Cual de los siguientes comandos se utiliza para eliminar una tabla?</p> 
+         <input type="radio" name="pregunta8">DELETE<br><br>
+         <input type="radio" name="pregunta8">DROP<br><br>
+         <input type="radio" name="pregunta8">TRUCATE <br><br>
+         <input type="radio" name="pregunta8">REMOVE <br><br>
+
+          <!--QUESTION 9-->
+          <p>9. Que es una clave primaria y para que se utiliza?</p> 
+          <input type="text" name="texto9"><br><br>
+          
+
+          <!--QUESTION 10-->
+         <p>10. La segunda Forma Normal (2NF) requiere que todos los atributos no clave dependan completamente de la clave primaria</p> 
+         <input type="radio" name="pregunta10">verdadero<br><br>
+         <input type="radio" name="pregunta10">falso <br><br>
+
+         <!--QUESTION 11 IMG-->
+        <p>11. En el diagrama ¿Cual de los siguientes atributos pertenece a la entidad 'Proovedor'</p>  <br><br>
+         <img src="img/questiontxt5.png" width="500" height="350" alt=""><br><br>
+
+         <input type="radio" name="pregunta11">Forma de pago
+         <input type="radio" name="pregunta11">ID Inventario<br><br>
+         <input type="radio" name="pregunta11">Cantidad de Materia Prima
+         <input type="radio" name="pregunta11">Fecha Asignada<br><br>
+
+         <!--QUESTION 12-->
+         <p>12. Describe una situacion en la que una tabla deberia ser desnormalizada para mejorar el rendimiento</p> 
+         <input type="text" name="respuesta12" id=""><br><br>
+
+         <!--QUESTION 13-->
+         <p>13. La Tercera Forma Normal (3NF) elimina las dependencias transitivas entre atributos no clave</p> 
+         <input type="radio" name="pregunta13" id="">verdadero<br><br>
+         <input type="radio" name="pregunta13" id="">falso<br><br>
+
+
+         <!--QUESTION 14-->
+         <p>14. Qué comando SQL se usa para agregar un nuevo registro a una tabla?</p>  <br><br>
+         <input type="radio" name="pregunta14">ADD<br>
+         <input type="radio" name="pregunta14">APPEND<br>
+         <input type="radio" name="pregunta14">SELECT<br>
+         <input type="radio" name="pregunta14">INSERT<br>
+
+         <!--Question 15-->
+         <p>15. Explica la relacion entre las entidades 'Productos' y 'Produccion' en el diagrama</p> <br><br>
+         <img src="img/questiontxt5.png" width="600" height="350" alt="imagen descriptiva"><br><br>
+         <input type="text" name="texto15"><br><br>
+
+         <!--QUESTION 16-->
+         <p>16. En el diagrama, 'Administrador' gestiona 'Produccion'</p> <br><br>
+         <input type="radio" name="respuesta16">verdadero<br><br>
+         <input type="radio" name="respuesta16">falso<br><br>
+
+         <!--QUESTION 17-->
+         <p>17. En SQL, ¿Cual de los siguientes operadores se usa para seleccionar registros que cumplen al menos una de las varias condiciones</p> <br><br>
+         <input type="radio" name="pregunta17">AND
+         <input type="radio" name="pregunta17">OR<br><br>
+         <input type="radio" name="pregunta17">NOT
+         <input type="radio" name="pregunta17">BETWEEN<br><br>
+
+         <!--QUESTION 18-->
+         <p>18. ¿Por que es importante definir correctamente las relaciones entre entidades en un modelo de datos?</p> <br><br>
+         <input type="text" name="respuesta18" id=""><br><br>
+
+         <!--QUESTION 19-->
+         <p>19. En el diagrama, la entidad 'Cliente' puede tener dificiles 'Tipos de cliente' como Nacional e Internacional</p> <br><br>
+         <input type="radio" name="pregunta19" id="">verdadero<br><br>
+         <input type="radio" name="pregunta19" id="">falso<br><br>
+
+         <!--QUESTION 20-->
+         <p>20. ¿Que beneficios trae aplicar la Tercera Forma Normal en un diseño de base de datos</p><br>
+         <input type="text" name="respuesta20"><br><br>
+
+        </section>
+
+         
+
+
+
+
+
+
+
+
+
+      <!--   <label for="respuesta2txt">2. explica el siguente diagrama</label> <br><br> 
+      <img src="img/questiontxt2.png" alt="imagen diagrama" width="400" height="200"> <br><br>
+      <input type="text"> --->
+
+
+
+
+    </section>
+    </div>
+
+</body>
+<footer>
+   <!--QUESTION 21-->
+   <strong style="color: rgb(180, 176, 176);">21. Esta era escribir el nombre pero los datos se ingresaron arriba xd</strong> 
+</footer>
+</html>
